@@ -1,5 +1,5 @@
-import * as express from require('express');
-import * as line from '@line/bot-sdk';
+const express = require('express');
+const line = require('@line/bot-sdk');
 const config = {
     "channelAccessToken" : process.env.channelAccessToken,
     "channelSecret" : proess.env.channelSecret
